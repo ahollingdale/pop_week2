@@ -4,6 +4,6 @@ git diff aaaaaaa bbbbbbb
 
 How do you see the contents of what changed within each file from the git log?
 
-
+git log -p filename
 
 What does HEAD refer to in the context of git? (Not to be confused with the "HEAD<<<<" one observes within a merge conflict)
