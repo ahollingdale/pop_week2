@@ -1,9 +1,11 @@
-How do you see the files changed within each commit from git log?
+Q1. How do you see the files changed within each commit from git log?
 
 git diff aaaaaaa bbbbbbb
 
-How do you see the contents of what changed within each file from the git log?
+Q2. How do you see the contents of what changed within each file from the git log?
 
 git log -p filename
 
-What does HEAD refer to in the context of git? (Not to be confused with the "HEAD<<<<" one observes within a merge conflict)
+Q3. What does HEAD refer to in the context of git? (Not to be confused with the "HEAD<<<<" one observes within a merge conflict)
+
+HEAD refers to the last commit in the currently checked-out branch
